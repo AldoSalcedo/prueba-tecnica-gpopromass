@@ -1,0 +1,106 @@
+body {
+  background-color: #ffffff;
+  color: #617089;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #eaf0fa;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 576px) {
+  .text-truncate {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .text-truncate {
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+}
+
+.subtitles {
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ffd25f;
+}
+
+.contenedor {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-container p {
+  font-size: 1rem;
+  margin-bottom: 0;
+  opacity: 0.8;
+}
+
+.contact {
+  background-color: #eaf0fa;
+}
+
+.footer {
+  background-color: #617089;
+  color: white;
+  text-align: center;
+}
+
+.night-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.night-mode h1,
+.night-mode h2,
+.night-mode h3,
+.night-mode h4,
+.night-mode h5,
+.night-mode h6 {
+  color: #ffffff;
+}
+
+.night-mode .text-white {
+  color: #ffffff !important;
+}
+
+.night-mode .btn {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
